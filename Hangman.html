@@ -1,0 +1,36 @@
+<!--
+1. Array contains a list of words
+2. computer chooses randomly from the list and store the choice in a variable
+3. the chosen words is converted into an array of letters
+4. the computer draws two lines of dashes, with the number of dashes equal to   letters in the chosen word.
+4. The user chooses a letter (keystroke or pressing a button)
+5. if the letter is equal to any of the letters in the word, the corresponding dash(es) will be converted to the lette.
+when all dashes in the top line are repleced by dashes, alert (YOU WON!!
+7. if five wrongs, alert (GAME OVER!). restat
+
+to reload: location.reload
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Hangman</title>
+</head>
+<body>
+    <h1>THE HANGMAN</h1>
+
+    <h2 id="word-display"></h2>
+    <h2>Guesses Remaining: <span id="guesses-left">5</span></h2>
+    <h2>Guessed Letter: <span id="guessed-letters"></span></h2>
+
+
+   <script src="hangman.js"></script>
+
+
+</body>
+</html>
+
+
