@@ -86,19 +86,6 @@ function resetGame() {
         return true;
     }
 
-
-//function checkLetter(){
-    //var userGuess = "";
-    //var correctGuess = false
-   // for (var i = 0; i < computerChoice.length; i++ ) {
-       
-
-     //   }
-    //}
-    //if (incorrectGuess) {
-        //decrement guesses
-            //gheck if that was the last 
-   // }
 }
 
 
